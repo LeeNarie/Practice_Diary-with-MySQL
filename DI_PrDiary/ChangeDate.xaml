@@ -1,0 +1,17 @@
+﻿<Window x:Class="DI_PrDiary.ChangeDate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DI_PrDiary"
+        mc:Ignorable="d"
+        Title="Изменить дату" Height="183" Width="466.86">
+    <Grid>
+        <TextBox x:Name="theme" HorizontalAlignment="Left" Height="26" Margin="23,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="398" UndoLimit="150"/>
+        <TextBox x:Name="gr" HorizontalAlignment="Left" Height="23" Margin="23,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
+        <Label Content="Тема" HorizontalAlignment="Left" Margin="23,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Оценка" HorizontalAlignment="Left" Margin="23,74,0,0" VerticalAlignment="Top"/>
+        <Button Content="ОК" HorizontalAlignment="Left" Margin="296,89,0,0" VerticalAlignment="Top" Width="125" Height="46" Click="Button_Click"/>
+
+    </Grid>
+</Window>
